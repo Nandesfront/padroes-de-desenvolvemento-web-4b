@@ -75,3 +75,6 @@ insert into ItemVenda (valorPrincipal, quantidadeParcial, produto_codigo) values
 insert into ItemVenda (valorPrincipal, quantidadeParcial, produto_codigo) values (1, 299.99, 9);
 insert into ItemVenda (valorPrincipal, quantidadeParcial, produto_codigo) values (1, 149.90, 10);
 
+
+
+
