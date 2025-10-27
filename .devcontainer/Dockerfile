@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN echo "CREATE USER 'hernandes'@'localhost' IDENTIFIED BY 'Unifio@123'; \
-        GRANT ALL PRIVILEGES ON *.* TO 'sergio'@'localhost' WITH GRANT OPTION; \
+        GRANT ALL PRIVILEGES ON *.* TO 'hernandes'@'localhost' WITH GRANT OPTION; \
         CREATE DATABASE projeto; \
         FLUSH PRIVILEGES;" > /tmp/script.sql
 
